@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     
     cityName.textContent = name;
     temperature.textContent = `Temperature: ${main.temp}`;
-    description.textContent = `Description: ${weather.description}`;
+    description.textContent = `Description: ${weather[0].description}`;
 
     
 
